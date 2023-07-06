@@ -1,0 +1,42 @@
+<!-- <button type="button" class="btn btn-primary">Primary</button> -->
+<div class="row">
+    <mat-toolbar color="Info" class="fixed-header">
+        <mat-toolbar-row>
+         <div style="margin-left: 3%;">
+          <img src="./assets/nucsoft-logo.png" alt="Auxilo" width="160" height="40" class="h-auto">
+         </div>
+          <span class="spacer"></span>
+          <div class="col-md-12  d-flex justify-content-end" style="padding-right: 15%;">
+            <section>
+              <div *ngIf = "loginCheck" class="example-button-row" style="padding-left: 20%;">
+                <button mat-icon-button (click)="logout()" [routerLink]="['/login']" >
+                
+                  <mat-icon>power_settings_new</mat-icon>
+                  <span>Logout</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</div>
+<!--     
+     <div class="col-md-12">
+        <div class="row justify-content-end">
+          <div class="col-md-2  d-flex justify-content-end" style="margin-right: 5%;">
+            <section>
+              <div class="example-button-row" style="padding-left: 40%;">
+                <button mat-icon-button (click)="logout()" [routerLink]="['/login']" >
+                  <mat-icon>power_settings_new</mat-icon>
+                  <span>Logout</span>
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+    </div> -->
+
+
+
+<!-- <router-outlet></router-outlet> -->
+

@@ -1,0 +1,5 @@
+{
+    
+    "gateWayUrl" : "http://192.168.11.21:8086/chatBot",
+    "tokenUrl" : "http://192.168.11.21:8086/token"
+}
